@@ -54,7 +54,7 @@ def save_to_file(df, filename="usernames.txt"):
         df['Username'].to_csv(filename, index=False, header=False)
         print(f"\n Saved {len(df)} usernames to '{filename}'")
     except Exception as e:
-        print(f"❌ Error saving to file: {e}")
+        print(f" Error saving to file: {e}")
 
 # Visualize data using matplotlib
 def plot_stats(df):
